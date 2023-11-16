@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+
+
+.main-container {
+    width: 1200px;
+    height: 1000px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin: 100px auto;
+    background-color: rgb(216, 232, 244);
+
+}
+
+#right-section {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    justify-content: center;
+
+
+}
+
+.music-section {
+    display: flex;
+    border-left: 2px solid black;
+
+
+
+
+}
+
+#right-section img {
+    width: 140px;
+    padding: 22px;
+    border-bottom: 1px solid black;
+    margin: 8px;
+
+
+}
+
+.h2-primary {
+    font-size: 3rem;
+}
+
+.music-section h4 {
+    font-size: 1rem;
+}
+
+.left-section {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* margin-right: auto; */
+    align-items: center;
+
+}
+
+.image-section img {
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+
+.logo-section img {
+    width: 50px;
+}
+
+.blank {
+    border: 2px solid black;
+    width: 590px;
+    padding: 4px;
+    margin-top: 60px;
+    border-radius: 10px;
+}
+
+.logo-section {
+    margin-top: 20px;
+}
+
+.logo-section img {
+    padding: 10px;
+}
+
+.h2-secondary {
+    font-size: 3rem;
+}
+
+.left-section h4 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.header {
+    text-align: center;
+    font-size: 5rem;
+    color: red;
+    font-family: cursive;
+
+}
