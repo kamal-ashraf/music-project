@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: skyblue;
+}
+
+.music-container {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* text-align: center; */
+    margin: 12px auto;
+    width: 1200px;
+    height: 800px;
+    /* border: 2px solid black; */
+    background-color: rgb(152, 178, 221);
+    border-radius: 20px;
+}
+
+#music-player {
+    width: 650px;
+    border-right: 1px solid black;
+}
+
+.left-side {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-side img {
+    width: 400px;
+    margin: auto;
+    border-radius: 16px;
+    margin-top: 12px;
+}
+
+.blank-line {
+    display: flex;
+
+    border: 1px solid black;
+    width: 600px;
+    justify-content: center;
+    background-color: white;
+    margin-top: 16PX;
+    padding: 8px;
+    border-radius: 12px;
+
+    /* margin: auto; */
+}
+
+.h1-primary {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* text-align: center; */
+    font-size: 4rem;
+    /* background-color: rgb(106, 106, 231); */
+    color: rgb(178, 25, 92);
+    padding: 12px;
+    font-family: cursive;
+}
+
+.h3-secondary {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 4rem;
+}
+
+.h4-secondary {
+    text-align: center;
+}
+
+.right-section {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.primary {
+    font-size: 2rem;
+}
+
+#music-row h6 {
+    font-size: 20px;
+}
+
+#music-row {
+    display: flex;
+    /* flex-direction: column; */
+    border-bottom: 1px solid black;
+    margin: 10px;
+    /* margin-left: 10px; */
+}
+
+.right-section img {
+    width: 100px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.music-icon {
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    padding: 8px;
+
+
+
+}
+
+.music-icon img {
+    width: 30px;
+    margin: 16px;
+    font-size: 1.5rem;
+
+
+
+}
